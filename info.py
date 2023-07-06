@@ -9,7 +9,7 @@ def is_enabled(value, default):
     elif value.lower() in ["false", "no", "0", "disable", "n"]:
         return False
     else:
-        return default
+        return default. 0000000
 
 # Bot information
 SESSION = environ.get('SESSION', 'jaadugar_search')
