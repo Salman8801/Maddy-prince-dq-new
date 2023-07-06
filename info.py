@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'jaadugar_search')
 API_ID = int(environ.get('API_ID', '20077906'))
 API_HASH = environ.get('API_HASH', 'da36369fbe92c05fd924331af2615e73')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6375241705:AAGs2eD6kQfvPpI-NSLyCE4TPtvCRQ6fukw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6393686216:AAErbhRLpoDjGcu5B2vN5-_hjM8v7dPkPZQ')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/79dfde24bf61e71a2121b.jpg https://telegra.ph/file/6f7391a39ed42ea87e661.jpg https://telegra.ph/file/014157e6cc3c18ed4de02.jpg https://telegra.ph/file/c6cc370dd1aa43aef7d2d.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/79dfde24bf61e71a2121b.jpg https://telegra.ph/file/0a5caa2a4c9dbaa073208.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/79dfde24bf61e71a2121b.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
@@ -42,8 +42,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mongodb+srv://salonisaloni81334:salonisaloni81334@cluster0.3eywwab.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://salonisaloni81334:salonisaloni81334@cluster0.3eywwab.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "saloni")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -61,7 +61,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/allmovises0')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesbank_Corporation')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001809838601'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001983627597'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/ac_films05')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
